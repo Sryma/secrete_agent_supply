@@ -27,7 +27,7 @@
 	overflow: hidden;
 }
 .banner{
-	background-image: url(image/moto.jpeg);
+	background-image: url(../../image/moto.jpeg);
 	width: 100%;
 	background-repeat: no-repeat;
     background-position: center;
@@ -52,16 +52,19 @@ nav{
 	background-color: firebrick;
 	text-align: center;
 }
-ul #list{
-	list-style: none;
-	}
- li{
-	display: inline-block;
+ul {
+	list-style: none;}
 	
-}
+  li{
+  	display: inline-block;
+  	width: 15%;
+
+  }
+
 a{
 	text-align: center;
 	color: white;
+	text-decoration: none;
 }
 .flex-container{
 	display:flex;
@@ -75,13 +78,15 @@ a{
 #item{
 	display: flex;
 	flex-direction: row;
+
 	
 }
+.item img{
+	margin: 2rem;
+}
 .item {
-	
 	width: 30%;
 	height: 13rem;
-	line-height: 2rem;
 	border:4px solid black;
 	margin-top: 3rem;
 	text-align: center;
